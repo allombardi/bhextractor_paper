@@ -51,11 +51,12 @@
 \author{James Clark}
  \affiliation{Physics Department, Georgia Institute of Technology.}%
  \email{james.clark@physics.gatech.edu}
-
+\author{Laura Cadonati}
+ \affiliation{Physics Department, Georgia Institute of Technology.}%
+ \email{laura.cadonati@physics.gatech.edu}
 \collaboration{LIGO Scientific Collaboration (LSC)}
 
-\date{\today}% It is always \today, today,
-             %  but any date may be explicitly specified
+\date{\today}
 
 \begin{abstract}
 % Verbatim from Sant Cugat Paper
@@ -82,7 +83,23 @@ The GW waveform produced by solar and intermediate mass BBH systems spans the se
 
 The NR waveforms used in this paper were produced by the MAYA code of the Georgia Institute of Technology (Vaishnav et al., 2007) The MAYA code uses the Einstein Toolkit, which is based on the CACTUS infrastructure and CARPET mesh refinement (Schnetter et al., 2004). The output of all simulations is the Weyl Scalar, $\psi_4$, decomposed into spin-weighted spherical harmonics that is then converted to strain (Reisswig and Pollney, 2011).
 
-For this work we use 48 NR runs, listed in Table 1 without hybridization with post-Newtonian waveforms. The Q-series contains 13 non-spinning, unequal-mass simulations. We use 15 runs from the HR-series, a set of unequal-mass, equal spin simulations, with initial spin parallel to the initial angular momentum. The RO3- series is a set of 20 unequal-mass simulations with the lighter black hole spin aligned to the initial angular momentum (z-axis) and the other black hole at a tilt angle $\theta$ with the z-axis in the xz-plane; these systems are precessing and the tilt-angles are defined at a specific separation of the black holes at one instant in the evolution of the binary system and change in time. While the runs are tabulated with initial parameters, there is no functional form to relate one waveform to the next; we use a Principal Component Analysis to determine the differences in each catalog and how to best capture their signatures on the data.
+For this work we use 48 NR runs, listed in Table 1 without hybridization with post-Newtonian waveforms. The Q-series contains 13 non-spinning, unequal-mass simulations. We use 15 runs from the HR-series, a set of unequal-mass, equal spin simulations, with initial spin parallel to the initial angular momentum. The RO3-series is a set of 20 unequal-mass simulations with the lighter black hole spin aligned to the initial angular momentum (z-axis) and the other black hole at a tilt angle $\theta$ with the z-axis in the xz-plane; these systems are precessing and the tilt-angles are defined at a specific separation of the black holes at one instant in the evolution of the binary system and change in time. While the runs are tabulated with initial parameters, there is no functional form to relate one waveform to the next; we use a Principal Component Analysis to determine the differences in each catalog and how to best capture their signatures on the data.
+
+\section{Waveform Catalogs}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.4\textwidth]{figures/HR-series_catalogue.png}
+\caption{Waveforms that make up the HR catalog}
+\label{fig:HR_catalog}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.4\textwidth]{figures/RO3-series_catalogue.png}
+\caption{Waveforms that make up the RO3 catalog}
+\label{fig:RO3_catalog}
+\end{figure}
 
 \end{document}
 %
